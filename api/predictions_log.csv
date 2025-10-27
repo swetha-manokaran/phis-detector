@@ -1,0 +1,6 @@
+timestamp,url,result
+2025-10-27 16:02:26,https://google.com,Legitimate ✅
+2025-10-27 16:02:34,https://google.com,Legitimate ✅
+2025-10-27 16:17:38,https://fakesnewsdetection.com,Legitimate ✅
+2025-10-27 16:18:05,https://fakesnewsdetection.com,Legitimate ✅
+2025-10-27 16:22:06,https://google.com,Legitimate ✅

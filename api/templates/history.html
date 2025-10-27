@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>URL History</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>📜 URL Check History</h1>
+
+    {% if history %}
+        <table border="1" cellpadding="10">
+            <tr>
+                <th>URL</th>
+                <th>Prediction</th>
+            </tr>
+            {% for h in history %}
+            <tr>
+                <td>{{ h.url }}</td>
+                <td>{{ h.result }}</td>
+            </tr>
+            {% endfor %}
+        </table>
+    {% else %}
+        <p>No history available yet.</p>
+    {% endif %}
+
+    <a href="/">← Back to Home</a>
+</body>
+</html>

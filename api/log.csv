@@ -1,0 +1,6 @@
+URL,Prediction
+https://google.com,Legitimate
+https://google.com,Legitimate
+https://chatgpt.com,Legitimate
+http://localhost:8000/test_target.html,Legitimate
+https://fakesnewsdetection.com,Legitimate
